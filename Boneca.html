@@ -11,32 +11,45 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Boneca" startnode="1" creator="Twine" creator-version="2.0.11" ifid="FBB03CAD-15BF-4714-867D-8C195A37EE24" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">img {
+<tw-storydata name="Boneca" startnode="50" creator="Twine" creator-version="2.0.11" ifid="FBB03CAD-15BF-4714-867D-8C195A37EE24" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">* {
+	font-family: courier; 
+}
+
+body {
+    background: #FAEBD7;	
+}
+
+img {
 	width: 840px;	
+	border: 6px solid #543305;
+}
+
+tw-icon {
+	display: none;	
 }
 
 tw-link, .enchantment-link{
-	border:1px solid #8A66F4;-webkit-box-shadow: #CCCCCC 0px 1px 0px inset;-moz-box-shadow: #CCCCCC 0px 1px 0px inset;
-	box-shadow: #CCCCCC 0px 1px 0px inset; -webkit-border-radius: 5px; -moz-border-radius: 5px;border-radius: 5px;font-size:15px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
-	background-color: #B29AF8; background-image: -webkit-gradient(linear, left top, left bottom, from(#B29AF8), to(#9174ED));
-	background-image: -webkit-linear-gradient(top, #B29AF8, #9174ED);
-	background-image: -moz-linear-gradient(top, #B29AF8, #9174ED);
-	background-image: -ms-linear-gradient(top, #B29AF8, #9174ED);
-	background-image: -o-linear-gradient(top, #B29AF8, #9174ED);
-	background-image: linear-gradient(to bottom, #B29AF8, #9174ED);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#B29AF8, endColorstr=#9174ED);
-	margin-bottom: 10px;
+border:1px solid #6B5113;-webkit-box-shadow: #CCCCCC 0px 1px 0px inset;-moz-box-shadow: #CCCCCC 0px 1px 0px inset; box-shadow: #CCCCCC 0px 1px 0px inset; -webkit-border-radius: 5px; -moz-border-radius: 5px;border-radius: 5px;font-size:15px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #a67939; background-image: -webkit-gradient(linear, left top, left bottom, from(#a67939), to(#845108));
+ background-image: -webkit-linear-gradient(top, #a67939, #845108);
+ background-image: -moz-linear-gradient(top, #a67939, #845108);
+ background-image: -ms-linear-gradient(top, #a67939, #845108);
+ background-image: -o-linear-gradient(top, #a67939, #845108);
+ background-image: linear-gradient(to bottom, #a67939, #845108);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a67939, endColorstr=#845108);
 }
 
 tw-link, .enchantment-link:hover{
-	border:1px solid #9174ED;
-	background-color: #C9A9FF; background-image: -webkit-gradient(linear, left top, left bottom, from(#C9A9FF), to(#9174ED));
-	background-image: -webkit-linear-gradient(top, #C9A9FF, #9174ED);
-	background-image: -moz-linear-gradient(top, #C9A9FF, #9174ED);
-	background-image: -ms-linear-gradient(top, #C9A9FF, #9174ED);
-	background-image: -o-linear-gradient(top, #C9A9FF, #9174ED);
-	background-image: linear-gradient(to bottom, #C9A9FF, #9174ED);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#C9A9FF, endColorstr=#9174ED);
+ border:1px solid #EDBB45;
+ background-color: #805d2c; background-image: -webkit-gradient(linear, left top, left bottom, from(#805d2c), to(#543305));
+ background-image: -webkit-linear-gradient(top, #805d2c, #543305);
+ background-image: -moz-linear-gradient(top, #805d2c, #543305);
+ background-image: -ms-linear-gradient(top, #805d2c, #543305);
+ background-image: -o-linear-gradient(top, #805d2c, #543305);
+ background-image: linear-gradient(to bottom, #805d2c, #543305);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#805d2c, endColorstr=#543305);
 }
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
 
 
 
@@ -62,7 +75,7 @@ Ela encontra um muro coberto de espinhos e deve escolher se vai para a direita o
 [[Ir para esquerda-&gt; B1]]</tw-passagedata>
 <tw-passagedata pid="4" name=" A1" tags="" position="254,156">&lt;img src=&quot;Artes/A1.png&quot; alt=&quot;Imagem&quot; /&gt;
 
-Ela encontra uma mesa cheia de doce e com um bolo gigante.
+Ela encontra uma mesa cheia de doce com um bolo gigante.
 
 [[Comer o bolo-&gt;D1]]
 [[Pegar alguns doces-&gt;D2]]
@@ -113,6 +126,7 @@ A menina está perdida.
 <tw-passagedata pid="13" name=" B2" tags="" position="1500,163">&lt;img src=&quot;Artes/B2.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 A menina encontrou um pé de morango e pegou um.
+
 [[ Comer todos os moragos -&gt;C1]]
 [[ Colher alguns morangos, para ir comendo no caminho. -&gt;C2]]
 [[Ignorar,-&gt;C3]]</tw-passagedata>
@@ -144,7 +158,7 @@ A menina está perdida.
 Ela tenta parar de comer e não consegue.
 
 (link-goto: &quot;Continuar&quot;, (either: &quot;E1&quot;, &quot;E2&quot;,&quot;E3&quot;,&quot;E4&quot;))</tw-passagedata>
-<tw-passagedata pid="19" name="C5" tags="" position="2108,326">&lt;img src=&quot;Artes/C3C5.png&quot; alt=&quot;Imagem&quot; /&gt;
+<tw-passagedata pid="19" name="C5" tags="" position="2107,326">&lt;img src=&quot;Artes/C3C5.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 Ela continua a procurar a boneca. 
 
@@ -161,11 +175,11 @@ A menina está perdida.
 [[Continuar -&gt;F]]</tw-passagedata>
 <tw-passagedata pid="22" name="I" tags="" position="1968,1114">&lt;img src=&quot;Artes/I.png&quot; alt=&quot;Imagem&quot; /&gt;
 
-MORREU!!!</tw-passagedata>
+[[Jogar de novo-&gt;1]]</tw-passagedata>
 <tw-passagedata pid="23" name="E1" tags="" position="756,668">&lt;img src=&quot;Artes/E1E2.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 Uma fada aparece.
-A menina tenta pedir ajuda mas não consegue falar com a boca cheia de bolo, a Fada percebe o desespero da menina e fala:
+A menina tenta pedir ajuda mas não consegue falar com a boca cheia, a Fada percebe o desespero da menina e fala:
  - A floresta e o jardim possuem várias armadilhas e você caiu em uma delas, pois escolheu comer ao em vez de procurar sua boneca. 
 A fada vai embora.
 
@@ -181,13 +195,13 @@ A fada lançou um feitiço na menina.
 <tw-passagedata pid="25" name="E3" tags="" position="1069,666">&lt;img src=&quot;Artes/E3E4.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 Um pássaro aparece.
-A menina tenta pedir ajuda mas não consegue falar com a boca cheia de morango,o pássaro percebe o desespero da menina e fala:
+A menina tenta pedir ajuda mas não consegue falar com a boca cheia,ele percebe o desespero da menina e fala:
  - O jardim e a floresta possuem duas armadilhas e você caiu em uma delas, pois escolheu comer ao em vez de procurar sua boneca. Precisa se lembrar de sua amizade com sua boneca para qubrar o feitiço.
  
  Já era tarde de mais para a menina.
  
  [[Continua -&gt;I]]</tw-passagedata>
-<tw-passagedata pid="26" name="E4" tags="" position="1221,667">&lt;img src=&quot;Artes/E3E4.png&quot; alt=&quot;Imagem&quot; /&gt;
+<tw-passagedata pid="26" name="E4" tags="" position="1222,666">&lt;img src=&quot;Artes/E3E4.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 Um pássaro aparece e diz:
   -  Pare de comer, pois o jardim e a floresta possuem várias armadilhas. Se sua boneca é importante para você, deve seguir em frente.
@@ -241,7 +255,7 @@ Pássaro:
      - O jardim e a floresta possem várias armadilhas, mas para você sua boneca é mais importante do que ficar comendo. Como recompensa vou te contar um atalho segua em frente e vire assim que encontrar uma flor rosa. 
 	 
 [[Continuar -&gt;H]]</tw-passagedata>
-<tw-passagedata pid="31" name="G" tags="" position="1091,1110">&lt;img src=&quot;Artes/G.png&quot; alt=&quot;Imagem&quot; /&gt;
+<tw-passagedata pid="31" name="G" tags="" position="1091,1110">&lt;img src=&quot;Artes/GG1G2.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 A menina finalmente encontra sua boneca, que esta em uma festa do chá. 
 
@@ -252,14 +266,14 @@ A menina finalmente encontra sua boneca, que esta em uma festa do chá.
 </tw-passagedata>
 <tw-passagedata pid="32" name="H" tags="" position="1589,1046">&lt;img src=&quot;Artes/H.png&quot; alt=&quot;Imagem&quot; /&gt;
 
-A menina vai parar dentro de um jardim roxo e vê uma flor amarela:
+A menina vai parar dentro de um jardim roxo e vê uma flor amarela.
 
 [[Virar para esquerda -&gt;H1]]
 [[Seguir em frente -&gt;H2]]
 [[Virar para direita -&gt;I]]</tw-passagedata>
 <tw-passagedata pid="33" name="H1" tags="" position="1466,1206">&lt;img src=&quot;Artes/H1.png&quot; alt=&quot;Imagem&quot; /&gt;
 
-Ela ve uma flor branca:
+Ela ve uma flor branca.
 [[Seguir em frente -&gt;H2]]
 [[Virar a esquerda -&gt;H3]]
 [[Virar a diretita -&gt;I]]</tw-passagedata>
@@ -276,14 +290,15 @@ Ela vê uma flor rosa e outra azul.
 
 A menina entra numa floresta vermelha.
 
-(link-goto: &quot;Continuar&quot;, (either: &quot;I&quot;, &quot;H&quot;, &quot;G&quot;,&quot;J&quot;,&quot;K&quot;))</tw-passagedata>
+(link-goto: &quot;Continuar&quot;, (either: &quot;I&quot;, &quot;H&quot;, &quot;G&quot;,&quot;J&quot;,&quot;K&quot;))
+</tw-passagedata>
 <tw-passagedata pid="36" name="H3" tags="" position="1592,1361">&lt;img src=&quot;Artes/H3.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 Ela chega numa encuzilhada ve uma flor vermelha.
 
 [[Virar a direita -&gt;H]]
 [[Virar a esquerda -&gt;H1]]</tw-passagedata>
-<tw-passagedata pid="37" name="G1" tags="" position="933,1287">&lt;img src=&quot;Artes/G1.png&quot; alt=&quot;Imagem&quot; /&gt;
+<tw-passagedata pid="37" name="G1" tags="" position="933,1287">&lt;img src=&quot;Artes/GG1G2.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 Menina:
   - Finalmente te encontrei! Já está tarde vamos embora?
@@ -293,7 +308,7 @@ Boneca:
 [[Perguntar por que a boneca está brava com ela -&gt;L1]]
 [[Chantagear a boneca para ela voltar -&gt;L2]]
 (link-goto: &quot;Ir embora sem ela&quot;, (either: &quot;J&quot;, &quot;K&quot;))</tw-passagedata>
-<tw-passagedata pid="38" name="G2" tags="" position="1157,1291">&lt;img src=&quot;Artes/G2.png&quot; alt=&quot;Imagem&quot; /&gt;
+<tw-passagedata pid="38" name="G2" tags="" position="1157,1291">&lt;img src=&quot;Artes/GG1G2.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 Menina:
   - Posso brincar com vocês?
@@ -306,10 +321,17 @@ Menina:
 
 Ela volta para casa sem a boneca.
 
-FIM!</tw-passagedata>
+FIM!!
+
+[[Jogar de novo-&gt;1]]</tw-passagedata>
 <tw-passagedata pid="40" name="J" tags="" position="1308,1806">&lt;img src=&quot;Artes/J.png&quot; alt=&quot;Imagem&quot; /&gt;
 
-Ela se perde para sempre. FIM</tw-passagedata>
+Ela se perde para sempre. 
+
+FIM!!
+
+[[Jogar de novo-&gt;1]]
+</tw-passagedata>
 <tw-passagedata pid="41" name="L1" tags="" position="835,1438">&lt;img src=&quot;Artes/L1L2M2M1.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 Boneca:
@@ -356,7 +378,7 @@ Menina:
 As duas se abraçam.
 Menina:
   - Mas como voltamos?
- A boneca sugere 3 opçõs:
+ A boneca sugere 2 opçõs:
  
  [[Tentar voltar sozinhas pelo mesmo camiho que a menina veio -&gt;N1]]
  [[Pedir ajuda ao ursinho-&gt;N2]]</tw-passagedata>
@@ -371,7 +393,9 @@ Boneca:
 
 As duas se perderam para sempre.
 
-FIM!</tw-passagedata>
+FIM!
+
+[[Jogar de novo-&gt;1]]</tw-passagedata>
 <tw-passagedata pid="47" name="N2" tags="" position="870,1808">&lt;img src=&quot;Artes/N2.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 Ursinho:
@@ -381,12 +405,14 @@ Ursinho:
 [[Aceitar os poneis -&gt;O1]]
 [[Aceitar o barco -&gt;O2]]
   </tw-passagedata>
-<tw-passagedata pid="48" name="O1" tags="" position="809,1977">&lt;img src=&quot;Artes/L1L2M2M1.png&quot; alt=&quot;Imagem&quot; /&gt;
+<tw-passagedata pid="48" name="O1" tags="" position="809,1977">&lt;img src=&quot;Artes/O1.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 O ursinho emprestou os pôneis, e elas partiram.
 Ao chegar em casa a menina cumpriu o acordo com a boneca e dormiu, cansada depois da aventura que vivera.
 
-FIM!</tw-passagedata>
+FIM!
+
+[[Jogar de novo-&gt;1]]</tw-passagedata>
 <tw-passagedata pid="49" name="O2" tags="" position="985,1981">&lt;img src=&quot;Artes/O1.png&quot; alt=&quot;Imagem&quot; /&gt;
 
 A menina lembrou do rio de chocolate e pediu o barco.
@@ -398,7 +424,21 @@ perguntou:
   - Você encontrou sua boneca 
 A menina só respondeu que sim.
 
-FIM!</tw-passagedata>
+FIM!!
+
+[[Jogar de novo-&gt;1]]</tw-passagedata>
+<tw-passagedata pid="50" name="Ini" tags="" position="957,0">&lt;h1&gt;BONECA&lt;/h1&gt;
+
+
+[[Começar-&gt;1]]
+
+
+Uma história escrita por:
+
+Fabio Vieira
+Fernanda Pinheiro
+Gabriel Spina
+</tw-passagedata>
 </tw-storydata>
 
 
